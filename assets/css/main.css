@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.family-nunito{
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  .family-lato{
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .family-poppins{
+    font-family: 'Poppins', sans-serif;
+  }
+  .bg-linear-blue{
+    background: -webkit-gradient(linear,left top,right top,from(#273c92),to(#293e92));
+  }
+  .max-w-8xl{
+    max-width: 90rem;
+  }
+  
+  .h-screen-24{
+    height: calc(100vh - 65px);
+  }
+  .to-rose-500{
+    --tw-gradient-to: #f43f5e;
+  }
+  .bg-linear-blue{
+    background: -webkit-gradient(linear,left top,right top,from(#273c92),to(#293e92));
+  }
+  .text-vs{
+    font-size: 10px;
+  }
+  .text-xz{
+    font-size: 11px;
+  }
+  .bg-indigo{
+    background-color: #eef3f8;
+  }
+  .border-b-solid{
+    border-bottom: 1px solid #00000014!important;
+  }
+  .border-t-solid{
+    border-top: 1px solid #00000014!important;
+  }
+  .border-solid{
+    border: 1px solid #00000014!important;
+  }
+  .text-black-light{
+    color: #00000099;
+  }
+  .text-sms{
+    font-size: 0.87rem;
+  }
+  .text-base-a{
+    font-size: 0.95rem;
+  }
+  .text-t-black{
+    color: #000000e6;
+  }
